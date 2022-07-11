@@ -1,0 +1,16 @@
+window.addEventListener('DOMContentLoaded', (event) => {
+
+    if ( document.querySelector( '#mdp-readabler-demo' ) !== null ) {
+
+        document.querySelector( '#mdp-readabler-demo' ).addEventListener( 'click', function () {
+
+            MicroModal.show( 'mdp-readabler-popup-box', {
+                openClass: 'mdp-is-open',
+                disableFocus: false,
+            } );
+
+        } );
+
+    }
+
+});
